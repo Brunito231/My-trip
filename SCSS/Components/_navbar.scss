@@ -1,0 +1,27 @@
+nav.navbar .navbar-brand img {
+    max-height: 4rem;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.dropdown-menu {
+    background: $gradient-color;
+}
+
+.navbar-brand img {
+    height: 4rem;
+}
+
+.navbar-nav .nav-link {
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD166;
+}

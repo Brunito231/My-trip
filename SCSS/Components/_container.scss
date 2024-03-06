@@ -1,0 +1,54 @@
+.container.top5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container .text-container {
+    background-color: cornflowerblue;
+    text-align: center;
+    justify-content: center;
+    border-radius: $border-radius;
+
+    &:first-child {
+        padding-top: 2%;
+    }
+}
+
+.container div img {
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+}
+
+.container iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.tours-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-container {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,29 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.image-wrapper:not(#parejaViajando) {
+    border-radius: $border-radius;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+/*
+.image-wrapper:last-child {
+    margin-right: 0;
+}
+
+.image-wrapper:hover .text-overlay {
+    opacity: 1;
+
+}
+*/
+.logo {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}

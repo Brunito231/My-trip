@@ -1,0 +1,22 @@
+// Colores
+$gradient-color: linear-gradient(to right, #001E6C, #005FAB, #0088BF, #00B4D8);
+$color-primary: #456789;
+$color-accent: #28a7a7;
+$color-dark: #000000;
+$color-light: #ffffff;
+
+$color-gradiente: (
+    izquierda: #000066,
+    centro-izquierda: #0000CC,
+    centro-derecha: #0099FF,
+    derecha: #66CCFF
+);
+
+// Dimensiones
+$border-radius: 15px;
+$box-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+
+// Breakpoints
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
